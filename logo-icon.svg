@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" viewBox="0 0 265.18 300.08">
+  <!-- Generator: Adobe Illustrator 29.8.9, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #fff;
+      }
+
+      .st0, .st1 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .st2 {
+        fill: #0c3333;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+
+      .st4 {
+        fill: #1faa93;
+      }
+
+      .st1 {
+        stroke: #2f6f68;
+      }
+
+      .st5 {
+        fill: #2f6f68;
+      }
+    </style>
+  </defs>
+  <sodipodi:namedview id="namedview1" bordercolor="#eeeeee" borderopacity="1" inkscape:current-layer="layer1" inkscape:cx="542.79632" inkscape:cy="401.19728" inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0" inkscape:showpageshadow="0" inkscape:window-height="1362" inkscape:window-maximized="0" inkscape:window-width="2544" inkscape:window-x="1522" inkscape:window-y="40" inkscape:zoom="0.31779877" pagecolor="#505050" showguides="true"/>
+  <sodipodi:namedview id="namedview1" bordercolor="#eeeeee" borderopacity="1" inkscape:current-layer="layer1" inkscape:cx="542.79632" inkscape:cy="401.19728" inkscape:deskcolor="#505050" inkscape:document-units="mm" inkscape:pagecheckerboard="0" inkscape:pageopacity="0" inkscape:showpageshadow="0" inkscape:window-height="1362" inkscape:window-maximized="0" inkscape:window-width="2544" inkscape:window-x="1522" inkscape:window-y="40" inkscape:zoom="0.31779877" pagecolor="#505050" showguides="true"/>
+  <path id="path13" class="st5" d="M136.92,23.52L27.22,86.85v126.67s109.7,63.33,109.7,63.33l109.7-63.33v-126.67s-109.7-63.33-109.7-63.33Z" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5707963" sodipodi:arg2="2.0943951" sodipodi:cx="-85.950447" sodipodi:cy="50.039646" sodipodi:r1="71.527252" sodipodi:r2="61.94442" sodipodi:sides="6" sodipodi:type="star"/>
+  <path id="path14-3" class="st3" d="M135.33,267.43l-102.47-59.16v-118.33l102.47-59.16,102.47,59.16v118.33s-102.47,59.16-102.47,59.16Z" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5707963" sodipodi:arg2="2.0943951" sodipodi:cx="-85.950447" sodipodi:cy="48.567894" sodipodi:r1="64.16848" sodipodi:r2="55.571533" sodipodi:sides="6" sodipodi:type="star"/>
+  <path id="path14-3-5" class="st3" d="M138.34,269.2l-102.47-59.16v-118.33l102.47-59.16,102.47,59.16v118.33s-102.47,59.16-102.47,59.16Z" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5707963" sodipodi:arg2="2.0943951" sodipodi:cx="-85.950447" sodipodi:cy="48.567894" sodipodi:r1="64.16848" sodipodi:r2="55.571533" sodipodi:sides="6" sodipodi:type="star"/>
+  <path id="path14" class="st2" d="M136.92,31.67l-102.47,59.16v118.33l102.47,59.16,102.47-59.16v-118.33s-102.47-59.16-102.47-59.16Z" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5707963" sodipodi:arg2="2.0943951" sodipodi:cx="-85.950447" sodipodi:cy="48.567894" sodipodi:r1="64.16848" sodipodi:r2="55.571533" sodipodi:sides="6" sodipodi:type="star"/>
+  <path id="path13-6" class="st4" d="M136.92,89.51l-53.31,30.78v61.56s53.31,30.78,53.31,30.78l53.31-30.78v-61.56s-53.31-30.78-53.31-30.78Z" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5707963" sodipodi:arg2="2.0943951" sodipodi:cx="-85.950447" sodipodi:cy="50.039646" sodipodi:r1="71.527252" sodipodi:r2="61.94442" sodipodi:sides="6" sodipodi:type="star"/>
+  <polyline class="st0" points="138.34 102.97 97.24 126.79 96.53 176.61"/>
+  <polyline class="st0" points="136.33 198.56 177.42 174.73 178.13 124.92"/>
+  <path id="path131" data-name="path13" class="st1" d="M136.92,100.7l-43.45,25.09v50.18s43.45,25.09,43.45,25.09l43.45-25.09v-50.18s-43.45-25.09-43.45-25.09Z" inkscape:flatsided="true" inkscape:randomized="0" inkscape:rounded="0" sodipodi:arg1="1.5707963" sodipodi:arg2="2.0943951" sodipodi:cx="-85.950447" sodipodi:cy="50.039646" sodipodi:r1="71.527252" sodipodi:r2="61.94442" sodipodi:sides="6" sodipodi:type="star"/>
+</svg>
