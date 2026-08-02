@@ -94,12 +94,13 @@ image-slot{background:var(--paper2)}
 #logo-1::part(frame),#logo-2::part(frame),#logo-3::part(frame){background:transparent}
 #logo-1::part(image),#logo-2::part(image),#logo-3::part(image){mix-blend-mode:multiply}
 .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:8px;position:relative;z-index:70}
+.nav-home-mobile{display:none}
 .nav-toggle span{display:block;width:24px;height:2px;margin:5px 0;background:var(--ink)}
 .nav-overlay{display:none}
 @media (max-width:900px){
   [id]{scroll-margin-top:90px}
   header.wrap{padding:14px 28px !important}
-  header.wrap img{height:47px !important;width:auto !important}
+  header.wrap img{height:59px !important;width:auto !important}
   nav.site-nav{position:fixed;top:0;right:-100%;width:78%;max-width:320px;height:100dvh;background:#fff;flex-direction:column !important;align-items:flex-start !important;gap:0 !important;padding:88px 28px 28px;transition:right .25s ease;box-shadow:-10px 0 30px rgba(0,0,0,.18);z-index:60;overflow-y:auto}
   nav.site-nav.open{right:0}
   nav.site-nav a{width:100%;padding:14px 12px;border-bottom:1px solid var(--rule);transition:background .12s ease}
@@ -109,6 +110,7 @@ image-slot{background:var(--paper2)}
   .nav-toggle{display:block}
   .nav-overlay{display:block;position:fixed;inset:0;background:rgba(0,0,0,0);pointer-events:none;transition:background .25s ease;z-index:50}
   .nav-overlay.open{background:rgba(0,0,0,.35);pointer-events:auto}
+  .nav-home-mobile{display:block}
 }
 @media (min-width:761px) and (max-width:900px){
   #hero{grid-template-columns:1fr !important}
@@ -124,7 +126,7 @@ image-slot{background:var(--paper2)}
   #why-trust-section{gap:20px !important}
   #why-trust-img{order:-1;height:200px !important;margin-bottom:0}
   .trusted-logos{gap:16px !important;flex-wrap:nowrap !important}
-  .trusted-logos img{height:28px !important;top:0 !important}
+  .trusted-logos img{height:auto !important;width:78px !important;top:0 !important}
   [style*="display:flex;gap"]{flex-wrap:wrap}
 }
 .cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:200;background:var(--ink);color:var(--paper);padding:20px 24px;box-shadow:0 -4px 24px rgba(0,0,0,.2)}
@@ -151,10 +153,11 @@ image-slot{background:var(--paper2)}
 
 <header class="wrap" style="display:flex;align-items:center;justify-content:space-between;padding:16px 64px;">
   <div style="display:flex;align-items:center;gap:10px;">
-    <img class="logo-icon" src="logo-icon.svg" alt="" style="height:61px;width:auto;">
-    <img src="logo-text.svg" alt="Trust Diagnostic by Imaginal" style="height:61px;width:auto;">
+    <img class="logo-icon" src="logo-icon.svg" alt="" style="height:76px;width:auto;">
+    <img src="logo-text.svg" alt="Trust Diagnostic by Imaginal" style="height:76px;width:auto;">
   </div>
   <nav class="site-nav" style="display:flex;align-items:center;gap:30px;">
+    <a class="mono nav-link nav-home-mobile" href="index.html">Home</a>
     <a class="mono nav-link" href="Trust Diagnostic - Pricing.html">Pricing</a>
     <a class="mono nav-link" href="Trust Diagnostic - Features.html">Features</a>
     <a class="mono nav-link" href="Trust Diagnostic - About.html">About</a>
@@ -166,7 +169,7 @@ image-slot{background:var(--paper2)}
 </header>
 <div class="nav-overlay"></div>
 
-<section id="hero" class="wrap section" style="display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center;">
+<section id="hero" class="wrap section" style="display:grid;grid-template-columns:1.05fr 1fr;gap:28px;align-items:center;">
   <div>
     <p class="mono" style="color:var(--teal);margin:0 0 18px;">Trust Diagnostic · an Imaginal platform</p>
     <h1 style="font-size:46px;line-height:1.08;font-weight:600;margin-bottom:20px;max-width:560px;">Turn hidden team dynamics into visible business impact.</h1>
@@ -449,13 +452,11 @@ image-slot{background:var(--paper2)}
       <a class="mono nav-link" href="Trust Diagnostic - Features.html">Features</a>
       <a class="mono nav-link" href="Trust Diagnostic - Pricing.html">Pricing</a>
       <a class="mono nav-link" href="Trust Diagnostic - Features.html#faq">FAQ</a>
+      <a class="mono nav-link" href="Trust Diagnostic - About.html">About</a>
     </div>
     <div style="display:flex;flex-direction:column;gap:10px;">
-      <a class="mono nav-link" href="Trust Diagnostic - About.html">About</a>
       <a class="mono nav-link" href="mailto:info@imaginalventures.com">Contact</a>
       <a class="mono nav-link" href="https://app.cbosystem.com/" target="_blank" rel="noopener">Login</a>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:10px;">
       <a class="mono nav-link" href="Trust Diagnostic - Privacy Policy.html">Privacy Policy</a>
       <a class="mono nav-link" href="Trust Diagnostic - Terms.html">Terms of Use</a>
     </div>

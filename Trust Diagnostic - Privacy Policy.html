@@ -49,6 +49,7 @@ h1,h2{font-family:var(--f-head);margin:0;letter-spacing:-0.01em}
 .btn:hover::before{width:8px;opacity:1;margin-right:8px;transform:rotate(0deg)}
 .btn-solid{background:var(--teal-mid);color:var(--ink)}.btn-solid:hover{background:var(--teal);color:#fff}
 .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:8px;position:relative;z-index:70}
+.nav-home-mobile{display:none}
 .nav-toggle span{display:block;width:24px;height:2px;margin:5px 0;background:var(--ink)}
 .nav-overlay{display:none}
 .legal h2{font-size:19px;font-weight:600;margin:40px 0 12px;}
@@ -58,7 +59,7 @@ h1,h2{font-family:var(--f-head);margin:0;letter-spacing:-0.01em}
 .legal a{color:var(--teal-d);text-decoration:underline}
 @media (max-width:900px){
   header.wrap{padding:14px 28px !important}
-  header.wrap img{height:47px !important;width:auto !important}
+  header.wrap img{height:59px !important;width:auto !important}
   nav.site-nav{position:fixed;top:0;right:-100%;width:78%;max-width:320px;height:100dvh;background:#fff;flex-direction:column !important;align-items:flex-start !important;gap:0 !important;padding:88px 28px 28px;transition:right .25s ease;box-shadow:-10px 0 30px rgba(0,0,0,.18);z-index:60;overflow-y:auto}
   nav.site-nav.open{right:0}
   nav.site-nav a{width:100%;padding:14px 12px;border-bottom:1px solid var(--rule);transition:background .12s ease}
@@ -68,6 +69,7 @@ h1,h2{font-family:var(--f-head);margin:0;letter-spacing:-0.01em}
   .nav-toggle{display:block}
   .nav-overlay{display:block;position:fixed;inset:0;background:rgba(0,0,0,0);pointer-events:none;transition:background .25s ease;z-index:50}
   .nav-overlay.open{background:rgba(0,0,0,.35);pointer-events:auto}
+  .nav-home-mobile{display:block}
 }
 @media (max-width:760px){
   .wrap{padding:0 28px}
@@ -99,10 +101,11 @@ h1,h2{font-family:var(--f-head);margin:0;letter-spacing:-0.01em}
 
 <header class="wrap" style="display:flex;align-items:center;justify-content:space-between;padding:16px 64px;">
   <a href="index.html" style="display:flex;align-items:center;gap:10px;">
-    <img class="logo-icon" src="logo-icon.svg" alt="" style="height:61px;width:auto;">
-    <img src="logo-text.svg" alt="Trust Diagnostic by Imaginal" style="height:61px;width:auto;">
+    <img class="logo-icon" src="logo-icon.svg" alt="" style="height:76px;width:auto;">
+    <img src="logo-text.svg" alt="Trust Diagnostic by Imaginal" style="height:76px;width:auto;">
   </a>
   <nav class="site-nav" style="display:flex;align-items:center;gap:30px;">
+    <a class="mono nav-link nav-home-mobile" href="index.html">Home</a>
     <a class="mono nav-link" href="Trust Diagnostic - Pricing.html">Pricing</a>
     <a class="mono nav-link" href="Trust Diagnostic - Features.html">Features</a>
     <a class="mono nav-link" href="Trust Diagnostic - About.html">About</a>
@@ -232,13 +235,11 @@ h1,h2{font-family:var(--f-head);margin:0;letter-spacing:-0.01em}
       <a class="mono nav-link" href="Trust Diagnostic - Features.html">Features</a>
       <a class="mono nav-link" href="Trust Diagnostic - Pricing.html">Pricing</a>
       <a class="mono nav-link" href="Trust Diagnostic - Features.html#faq">FAQ</a>
+      <a class="mono nav-link" href="Trust Diagnostic - About.html">About</a>
     </div>
     <div style="display:flex;flex-direction:column;gap:10px;">
-      <a class="mono nav-link" href="Trust Diagnostic - About.html">About</a>
       <a class="mono nav-link" href="mailto:info@imaginalventures.com">Contact</a>
       <a class="mono nav-link" href="https://app.cbosystem.com/" target="_blank" rel="noopener">Login</a>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:10px;">
       <a class="mono nav-link active" href="Trust Diagnostic - Privacy Policy.html">Privacy Policy</a>
       <a class="mono nav-link" href="Trust Diagnostic - Terms.html">Terms of Use</a>
     </div>
